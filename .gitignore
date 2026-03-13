@@ -1,0 +1,22 @@
+# Python environments
+venv/
+__pycache__/
+*.pyc
+*.pyo
+
+# IDE/System
+.vscode/
+.idea/
+.DS_Store
+
+# Vector Database and Data
+chroma_db*/
+data/
+data_cleaned/
+test_*.txt
+
+# Ignore documentation heavily built inside
+documentation/
+
+# API Keys
+.env
