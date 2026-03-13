@@ -4,7 +4,7 @@ An intelligent, conversational search assistant (RAG) designed to answer questio
 
 ![CIH Bank Logo](logo_cih.jpg)
 
-## ✨ Features
+## Features
 
 - **Automated Web Scraping**: Dynamically extracts up-to-date information across +100 CIH Bank URLs, including detailed documentation for individual and corporate credits (Auto, Immobilier, Consommation, etc.).
 - **Smart Data Cleaning**: Deduplicates website headers, footprints, and navigation artifacts to preserve high-quality LLM context context.
@@ -12,7 +12,7 @@ An intelligent, conversational search assistant (RAG) designed to answer questio
 - **Conversational Memory**: Remembers previous questions in the session (via LangChain `MessagesPlaceholder`), allowing multi-turn, contextual conversations.
 - **Premium UI**: Modern, aesthetic Streamlit interface customized with official CIH Bank branding (Deep Blue & Orange) and seamless chat bubble animations.
 
-## 🚀 Architecture
+## Architecture
 
 1. **Scraping Layer** (`scraper/cih_scraper.py`): Downloads HTML from CIH pages.
 2. **Cleaning Layer** (`scraper/data_cleaner.py`): Cleans and formats raw texts into pure corpus JSON.
@@ -21,7 +21,7 @@ An intelligent, conversational search assistant (RAG) designed to answer questio
 5. **LLM Chain Layer** (`rag/chain.py`): Compiles context and chat history into a seamless Groq LLM prompt.
 6. **Frontend App** (`rag/app.py`): The interactive user interface built heavily with Streamlit.
 
-## ⚙️ Installation & Setup
+## Installation & Setup
 
 1. **Clone the repository:**
    ```bash
@@ -59,6 +59,6 @@ An intelligent, conversational search assistant (RAG) designed to answer questio
    streamlit run app.py
    ```
 
-## 👨‍💻 Author
+##  Author
 
-Made with ❤️ by **Mohamed Mohssine** (Reda).
+Made by **Mohamed Mohssine** (Reda).
